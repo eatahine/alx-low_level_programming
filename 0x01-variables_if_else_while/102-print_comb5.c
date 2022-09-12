@@ -9,30 +9,22 @@ int main(void)
 {
 	int n;
 	int n2;
-	int n3;
-	int n4;
 
-	for (n = '0'; n <= '9'; n++) /*print first two digit combo*/
+	for (n = '0'; n <= '99'; n++) /*print first two digit combo*/
 	{
-		for (n2 = n + 1; n2 <= '9'; n2++)
+		for (n2 = n + 1; n2 <= '99'; n2++)
 		{
-			for (n3 = n; n3 <= '9'; n3++) /*print second of pair*/
-			{
-				for (n4 = n3 + 1; n4 <= '9'; n4++)
-				{
-				putchar(n);
-				putchar(n2);
-				putchar(' ');
-				putchar(n3);
-				putchar(n4);
+		putchar(n);
+		putchar(n2);
+		putchar(' ');
+		putchar(n);
+		putchar(n2);
 
-					if (n != '9' || n2 != '8' || n3 != '9' || n4 != '9')
-					{
-					putchar(',');
-					putchar(' ');
-					}
+			if (n != '99' || n2 != '98')
+				{
+				putchar(',');
+				putchar(' ');
 				}
-			}
 		}
 	}
 	putchar('\n');
