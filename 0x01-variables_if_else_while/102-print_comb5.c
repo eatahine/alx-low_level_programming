@@ -32,8 +32,7 @@ int main(void)
 					putchar(' ');
 					}
 				}
-				n4 = '0';
-			}
+		 	}
 		}
 	}
 	putchar('\n');
