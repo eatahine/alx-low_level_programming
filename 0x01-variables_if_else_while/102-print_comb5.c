@@ -10,9 +10,9 @@ int main(void)
 	int n;
 	int n2;
 
-	for (n = '0'; n <= '99'; n++) /*print first two digit combo*/
+	for (n = '0'; n <= 99; n++) /*print first two digit combo*/
 	{
-		for (n2 = n + 1; n2 <= '99'; n2++)
+		for (n2 = n + 1; n2 <= 99; n2++)
 		{
 		putchar(n);
 		putchar(n2);
@@ -20,7 +20,7 @@ int main(void)
 		putchar(n);
 		putchar(n2);
 
-			if (n != '99' || n2 != '98')
+			if (n != 99 || n2 != 98)
 				{
 				putchar(',');
 				putchar(' ');
