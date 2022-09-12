@@ -18,7 +18,7 @@ int main(void)
 		{
 			for (n3 = '0'; n3 <= '9'; n3++) /*print second of pair*/
 			{
-				for (n4 = n3 + 1; n4 <= '9'; n4++)
+				for (n4 = '0'; n4 <= '9'; n4++)
 				{
 				putchar(n);
 				putchar(n2);
