@@ -14,7 +14,7 @@ int main(void)
 
 	for (n = '0'; n <= '9'; n++) /*print first two digit combo*/
 	{
-		for (n2 = n + 1; n2 <= '9'; n2++)
+		for (n2 = '0'; n2 <= '9'; n2++)
 		{
 			for (n3 = n2 + 1; n3 <= '9'; n3++) /*print second of pair*/
 			{
@@ -32,7 +32,7 @@ int main(void)
 					putchar(' ');
 					}
 				}
-		 	}
+			}
 		}
 	}
 	putchar('\n');
