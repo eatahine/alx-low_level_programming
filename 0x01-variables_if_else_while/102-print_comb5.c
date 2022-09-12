@@ -14,9 +14,9 @@ int main(void)
 
 	for (n = '0'; n <= '9'; n++) /*print first two digit combo*/
 	{
-		for (n2 = '0'; n2 <= '9'; n2++)
+		for (n2 = n; n2 <= '9'; n2++)
 		{
-			for (n3 = n; n3 <= '9'; n3++) /*print second of pair*/
+			for (n3 = '0'; n3 <= '9'; n3++) /*print second of pair*/
 			{
 				for (n4 = n2 + 1; n4 <= '9'; n4++)
 				{
