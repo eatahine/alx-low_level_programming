@@ -8,6 +8,7 @@ int main(void)
 {
 	int num;
 	int num2;
+
 	for (num = 0; num < 100; num++)
 	{
 		for (num2 = 0; num2 < 100; num2++)
