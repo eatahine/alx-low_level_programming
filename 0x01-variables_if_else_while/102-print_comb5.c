@@ -1,32 +1,33 @@
 #include <stdio.h>
 
 /**
- **main - print a num pair from 00-99 but no repeats (00 01, 00 02, 00 03,...)
- *   *Return: Always 0 (Success)
+ * *main-main block
+ * *Return: Always 0 (success)
  */
-
 int main(void)
 {
-	int n;
-	int n2;
-
-	for (n = '0'; n <= 99; n++) /*print first two digit combo*/
+	int num;
+	int num2;
+	for (num = 0; num < 100; num++)
 	{
-		for (n2 = n + 1; n2 <= 99; n2++)
+		for (num2 = 0; num2 < 100; num2++)
 		{
-		putchar(n);
-		putchar(n2);
-		putchar(' ');
-		putchar(n);
-		putchar(n2);
-
-			if (n != 99 || n2 != 98)
+			if (num < num2)
+			{
+			putchar((num / 10) + 48);
+			putchar((num % 10) + 48);
+			putchar(' ');
+			putchar((num2 / 10) + 48);
+			putchar((num2 % 10) + 48);
+																			if (num != 98 || num2 != 99)
 				{
 				putchar(',');
 				putchar(' ');
 				}
+			}
 		}
 	}
 	putchar('\n');
 	return (0);
+
 }
