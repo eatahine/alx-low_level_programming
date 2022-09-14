@@ -7,3 +7,4 @@
 100-times_table -function that prints the n times table, starting with 0
 program that computes and prints the sum of all the multiples of 3 or 5 below 1024 (excluded), followed by a new line
 program that prints the first 50 Fibonacci numbers, starting with 1 and 2, followed by a new line
+ 103-fibonacci -program that finds and prints the sum of the even-valued terms in a fibonacci sequence, followed by a new line
