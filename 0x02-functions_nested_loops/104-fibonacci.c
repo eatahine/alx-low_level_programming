@@ -10,7 +10,7 @@
 int main(void)
 {
 	int l;
-	unsigned long n1 = 0, n2 = 1, sum;
+	long n1 = 0, n2 = 1, sum;
 
 	for (l = 0; l < 98; l++)
 	{
