@@ -12,11 +12,10 @@ int _isupper(int c)
 	for(c = 'a'; c <= 'z'; c++)
 	{
 		for(c = 'A'; c <= 'Z'; c++)
-		{_putchar(c);
+		{
 		return(1);
 		}
 
-	_putchar(c);
 	return(0);
 	}
 }
