@@ -12,13 +12,10 @@ int main(void)
 
 	for (prime = 2; prime <= sqrt(num); prime++)
 	{
-	/*int saved_prime;*/
 		if (num % prime == 0)
 		{
-		/*saved_prime = prime;*/
 		num = num / prime;
 		prime = 1;
-		/* printf("%ld\n", num);*/
 		}
 	}
 	printf("%ld\n", num);
