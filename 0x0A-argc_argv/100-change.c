@@ -25,7 +25,6 @@ int main(int argc, char *argv[])
 	}
 
 	n = atoi(argv[1]);
-
 	coins += n / 25;
 	n = n % 25;
 	coins += n / 10;
