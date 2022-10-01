@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -35,7 +36,6 @@ int main(int argc, char *argv[])
 	coins += n / 2;
 	n = n % 2;
 	coins += n / 1;
-
 	printf("%d\n", coins);
 	return (0);
 }
