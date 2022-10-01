@@ -11,7 +11,9 @@
 
 int main(int argc, char *argv[])
 {
-	int n, coins = 0;
+	int n;
+
+	coins = 0;
 
 	if (argc != 2)
 	{
