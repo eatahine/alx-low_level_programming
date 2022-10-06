@@ -71,7 +71,7 @@ char **strtow(char *str)
 	return (NULL);
 
 	strings = malloc(sizeof(char *) * (words + 1));
-	
+
 	if (strings == NULL)
 	return (NULL);
 
