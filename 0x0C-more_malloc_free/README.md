@@ -8,3 +8,5 @@
 
 100-realloc.c -function that reallocates a memory block using malloc and free.
 
+101-mul.c -program that multiplies two positive numbers.
+
