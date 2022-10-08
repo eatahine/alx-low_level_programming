@@ -1,11 +1,11 @@
-#include <stdlib.h>
+nclude <stdlib.h>
 #include <stdio.h>
 #include "main.h"
 /**
- *  * _isdigit - checks if a string contains a non-digit char
- *   * @s: string to be evaluated
- *    *
- *     * Return: 0 if a non-digit is found, 1 otherwise
+ *  *  * _isdigit - checks if a string contains a non-digit char
+ *   *   * @s: string to be evaluated
+ *    *    *
+ *     *     * Return: 0 if a non-digit is found, 1 otherwise
  */
 int _isdigit(char *s)
 {
@@ -15,15 +15,15 @@ int _isdigit(char *s)
 	{
 		if (s[i] < '0' || s[i] > '9')
 		return (0);
-		i++;
+	i++;
 	}
 	return (1);
 }
 /**
- *  * _strlen - returns the length of a string
- *   * @s: string to evaluate
- *    *
- *     * Return: the length of the string
+ *  *  * _strlen - returns the length of a string
+ *   *   * @s: string to evaluate
+ *    *    *
+ *     *     * Return: the length of the string
  */
 int _strlen(char *s)
 {
@@ -36,7 +36,7 @@ int _strlen(char *s)
 	return (i);
 }
 /**
- *  * error - handles error for main
+ *  *  * error - handles error for main
  */
 void error(void)
 {
@@ -44,11 +44,11 @@ void error(void)
 	exit(98);
 }
 /**
- *  * main - multiplies two positive numbers
- *   * @argc: number of arguments
- *    * @argv: array of arguments
- *     *
- *      * Return: always 0 (Success)
+ *  *  * main - multiplies two positive numbers
+ *   *   * @argc: number of arguments
+ *    *    * @argv: array of arguments
+ *     *     *
+ *      *      * Return: always 0 (Success)
  */
 int main(int argc, char *argv[])
 {
