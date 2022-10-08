@@ -102,9 +102,7 @@ void init(char *str, int l)
 int main(int argc, char *argv[])
 {
 	int l1, l2, ln, ti, i;
-	char *a;
-	char *t;
-	char e[] = "Error\n";
+	char *a, *t, e[] = "Error\n";
 
 	if (argc != 3 || check_for_digits(argv))
 	{
